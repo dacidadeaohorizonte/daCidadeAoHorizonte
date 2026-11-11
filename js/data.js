@@ -103,7 +103,11 @@ window.CIDADE_DATA = [
     espaco: 'Rua Encontro Marcado', 
     tipo: 'Cidade e sociedade', 
     cor: '#000', 
-    descricao: 'Um olhar audiovisual sobre as tensões entre a Belo Horizonte planejada e a Belo Horizonte vivida.', 
+    descricao: `
+      <h2>Rua Encontro Marcado</h2> 
+      <p>Descrição do projeto: A ideia é reproduzir, através de uma instalação composta pela exposição de quatro imagens e quatro pontos de recursos sonoros, a dicotomia entre a Belo Horizonte planejada e a Belo Horizonte vivida. Para ilustrar os dois pontos dos quais partem nosso projeto, elegemos a Belo Horizonte da década de 1940, em especial as comemorações da efeméride do cinquentenário da capital em 1947, e a Belo Horizonte atual.</p>
+      <p>A exposição do Clube de Humanidades realiza o encontro entre passado e presente de Belo Horizonte através de fotomontagens feitas a partir de distintos instrumentos, que servirão como suporte material para a contraposição das dicotomias latentes da nossa cidade. A ideia é que os estudantes pesquisem em acervos e meios digitais, imagens que ilustrem o passado-promessa e o presente-realidade da capital mineira. Através de diferentes técnicas como de colagem física (impressão de fotografias em papel fotográfico e colagem de recortes de outras fotografias) e sobreposição com papel vegetal (impressão de uma das imagens em papel fotográfico e outra em papel manteiga), os estudantes irão produzir e expor visualmente as contradições que marcam a memória e a identidade da cidade de Belo Horizonte, em uma tentativa que combina tanto crítica histórica quanto reconstrução simbólica das paisagens e personagens esquecidos da memória belo horizontina.</p>
+    `, 
     trabalhos: [
       { titulo: 'A cidade planejada e a cidade vivida', 
         descricao: 'Espaço para registros e produções audiovisuais.', 
@@ -180,7 +184,12 @@ window.CIDADE_DATA = [
     espaco: 'Rua Abaixo', 
     tipo: 'Águas da cidade', 
     cor: '#7a1710', 
-    descricao: 'Estudo da canalização dos rios e córregos de Belo Horizonte e do escoamento das águas das chuvas.', 
+    descricao: `
+      <h2>Rua Abaixo</h2>
+      <p>O Clube de Matemática vai abordar o tema das ruas num sentido mais objetivo e fiel à sua etimologia.</p>
+      <p>A palavra rua vem do latim ruga, que significava originalmente "sulco" ou "caminho". Na Roma Antiga designava o canal para escoamento de águas pluviais, mas com o tempo, seu sentido mudou para via de circulação.</p>
+      <p>Portanto, o Clube vai buscar apresentar o que ocorre ainda hoje no caso de algumas ruas e avenidas, a respeito do escoamento de águas de rios, córregos e chuvas. Essa explicação se dará principalmente via uma maquete que será construída juntamente com os alunos participantes do Clube. A ideia é fazer uma maquete de uma rua e um corte transversal demonstrando uma galeria de escoamento de água. Tudo isso, utilizando materiais como papelão, papel, tinta. Para complementar essa apresentação, e acrescentar elementos da matemática ao projeto, os alunos também vão ajudar a elaborar questões sobre o assunto: escoamento de águas pluviais e fluviais. Abordando temas como enchentes e alagamentos de regiões em Belo Horizonte. As questões podem incluir informações ou cálculos a respeito de capacidade volumétrica das galerias, volume de água pluvial em uma certa bacia hidrográfica, etc.</p>
+    `, 
     trabalhos: [
       { titulo: 'Os caminhos da água', 
         descricao: 'Espaço para registros, cálculos e materiais da pesquisa.', 
