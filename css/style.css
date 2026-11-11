@@ -645,7 +645,7 @@ button:focus-visible {
 }
 /* Descrições editoriais dos clubes (HTML confiável definido em js/data.js) */
 .club-description { padding-top: 65px; padding-bottom: 65px; }
-.club-description .descricao { max-width: 860px; margin: 0 auto; overflow-wrap: anywhere; }
+.club-description .descricao { max-width: 860px; margin: 0; text-align: left; overflow-wrap: anywhere; }
 .club-description .descricao h2 { font-size: clamp(1.8rem, 4vw, 2.7rem); line-height: 1.2; margin: 0 0 14px; }
 .club-description .descricao h3 { font-size: clamp(1.2rem, 2.6vw, 1.55rem); line-height: 1.35; margin: 32px 0 12px; color: #26336b; }
 .club-description .descricao p { font-size: 1.05rem; line-height: 1.8; margin: 0 0 18px; }
@@ -653,3 +653,50 @@ button:focus-visible {
 .club-description .descricao blockquote { margin: 24px 0; padding: 18px 22px; border-left: 4px solid #26336b; background: #f3f5fa; color: #202b38; font-size: 1.1rem; font-style: italic; line-height: 1.75; }
 .club-description .descricao strong { font-weight: 700; }
 @media(max-width:600px) { .club-description { padding-top: 42px; padding-bottom: 42px; } .club-description .descricao blockquote { padding: 14px 16px; } }
+
+/* Cards inteiros clicáveis na seção Descubra os projetos */
+.club-card {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform .22s ease, box-shadow .22s ease;
+}
+.club-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, .12);
+}
+.club-card:focus-visible {
+    outline: 3px solid #26336b;
+    outline-offset: 4px;
+}
+@media (prefers-reduced-motion: reduce) {
+    .club-card { transition: none; }
+}
+
+
+/* Texto da tag <small> no topo dos cards da seção 03 */
+.club-card { container-type: inline-size; }
+/* Altura uniforme para todos os cards, independentemente da quebra do texto. */
+.club-card .card-top {
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    box-sizing: border-box;
+    padding: 18px 20px;
+    gap: 12px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+}
+.club-card .card-top small {
+    display: block;
+    flex: 1 1 auto;
+    min-width: 0;
+    font-size: clamp(1.2rem, 5.7cqw, 1.7rem);
+    line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: -.025em;
+    text-wrap: balance;
+    overflow-wrap: break-word;
+}
+.club-card .card-top span { flex-shrink: 0; align-self: center; }
