@@ -643,3 +643,13 @@ button:focus-visible {
         animation: none !important
     }
 }
+/* Descrições editoriais dos clubes (HTML confiável definido em js/data.js) */
+.club-description { padding-top: 65px; padding-bottom: 65px; }
+.club-description .descricao { max-width: 860px; margin: 0 auto; overflow-wrap: anywhere; }
+.club-description .descricao h2 { font-size: clamp(1.8rem, 4vw, 2.7rem); line-height: 1.2; margin: 0 0 14px; }
+.club-description .descricao h3 { font-size: clamp(1.2rem, 2.6vw, 1.55rem); line-height: 1.35; margin: 32px 0 12px; color: #26336b; }
+.club-description .descricao p { font-size: 1.05rem; line-height: 1.8; margin: 0 0 18px; }
+.club-description .descricao .destaque { font-size: 1.18rem; font-style: italic; }
+.club-description .descricao blockquote { margin: 24px 0; padding: 18px 22px; border-left: 4px solid #26336b; background: #f3f5fa; color: #202b38; font-size: 1.1rem; font-style: italic; line-height: 1.75; }
+.club-description .descricao strong { font-weight: 700; }
+@media(max-width:600px) { .club-description { padding-top: 42px; padding-bottom: 42px; } .club-description .descricao blockquote { padding: 14px 16px; } }

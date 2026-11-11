@@ -57,3 +57,20 @@ O site não usa backend nem build. A tipografia carrega do Google Fonts quando h
 - Verificar contraste, navegação por teclado e texto alternativo das imagens.
 - Testar a reprodução dos arquivos MP4 nos equipamentos da instalação.
 - Verificar direitos de imagem, créditos e consentimentos.
+
+
+## Descrições formatadas
+
+Para criar títulos, subtítulos, parágrafos, negrito e citações na página de um clube, use **crases** na propriedade `descricao` do objeto em `js/data.js`:
+
+```js
+resumo: 'Texto curto para os cartões e o topo da página.',
+descricao: `
+  <h2>Título do projeto</h2>
+  <h3>Subtítulo</h3>
+  <p>Um parágrafo com <strong>destaque</strong>.</p>
+  <blockquote>Uma pergunta importante.</blockquote>
+`,
+```
+
+O campo `resumo` é opcional, mas recomendado quando `descricao` contém HTML. A descrição completa aparece em uma seção própria da página do clube; o resumo aparece no cartão da página inicial e no cabeçalho da página interna. Descrições antigas em texto simples continuam funcionando. Os estilos estão em `css/style.css`, sob o comentário “Descrições editoriais”. Use apenas HTML confiável escrito pela equipe no arquivo de dados.
