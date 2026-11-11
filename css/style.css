@@ -62,6 +62,16 @@ p {
     max-width: 68ch
 }
 
+td{
+    vertical-align: top;
+}
+.tdBold{
+    font-weight: bold;
+}
+.tdItalic {
+  font-style: italic;
+}
+
 header {
     position: sticky;
     top: 0;

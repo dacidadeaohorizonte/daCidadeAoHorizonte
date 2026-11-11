@@ -1,9 +1,159 @@
 window.CIDADE_DATA = [
-    { id: 'linguagens', nome: 'Linguística e Linguagens', espaco: 'Alameda das Almas', tipo: 'Narrativas e cinema', cor: '#5c2874', descricao: 'Curtas-metragens produzidos pelos estudantes sobre mitos de fundação e desenvolvimento de Belo Horizonte.', trabalhos: [{ titulo: 'Curtas da Alameda das Almas', descricao: 'Espaço reservado para os curtas produzidos pelos estudantes.', imagens: [], videos: [] }] },
-    { id: 'humanidades', nome: 'Humanidades', espaco: 'Rua Encontro Marcado', tipo: 'Cidade e sociedade', cor: '#000', descricao: 'Um olhar audiovisual sobre as tensões entre a Belo Horizonte planejada e a Belo Horizonte vivida.', trabalhos: [{ titulo: 'A cidade planejada e a cidade vivida', descricao: 'Espaço para registros e produções audiovisuais.', imagens: [], videos: [] }] },
-    { id: 'fisica', nome: 'Ciências — Física', espaco: 'Esquina da Física', tipo: 'Ambiente urbano', cor: '#26336b', descricao: 'Investigação dos impactos ambientais provocados pela ação humana na cidade.', trabalhos: [{ titulo: 'Impactos ambientais', descricao: 'Espaço para apresentar a investigação de Física.', imagens: [], videos: [] }] },
-    { id: 'quimica', nome: 'Ciências — Química', espaco: 'Esquina da Química', tipo: 'Consumo e energia', cor: '#26336b', descricao: 'Pesquisa sobre hábitos de consumo e atividades cotidianas que envolvem diferentes formas de energia.', trabalhos: [{ titulo: 'Energia no cotidiano', descricao: 'Espaço para apresentar a investigação de Química.', imagens: [], videos: [] }] },
-    { id: 'biologia', nome: 'Ciências — Biologia', espaco: 'Esquina da Biologia', tipo: 'Justiça ambiental', cor: '#26336b', resumo: 'Investigação das relações entre desigualdade social, racismo ambiental, ecossistemas e saúde pública em Belo Horizonte.', descricao: `
+  { id: 'linguagens', 
+    nome: 'Linguística e Linguagens',
+    espaco: 'Alameda das Almas',
+    tipo: 'Narrativas e cinema', 
+    cor: '#5c2874', 
+    descricao: `
+    
+    <h2>Pânico em BH</h2>
+    <p>Inspirados pelos mitos de fundação e desenvolvimento de Belo Horizonte, os estudantes do Clube de Linguística e Linguagens do Colégio Loyola roteirizaram, gravaram, produziram e editaram Pânico em BH, um curta que compila lendas conhecidas amplamente pelos moradores da cidade.</p>
+    <p>Misturando costumes do cotidiano e causos inventados, o curta reconta as histórias do Capeta da Vilarinho, Loira do Bonfim, Avantesma da Lagoinha e Maria do Arraial de forma cômica e reflexiva, promovendo debate acerca das identidades dos personagens e de localizações icônicas para a história de BH.</p>
+    <p>Confira o roteiro: <a href="index.html">Clique Aqui!</a></p>
+
+    <h3>Elenco</h3>
+    <table>
+        <tr>
+            <td class="tdBold">Sofia<br>Avó de Sofia</td>
+            <td class="tdItalic">Helena Sette</td>
+        </tr>
+        <tr>
+            <td class="tdBold">Júlia</td>
+            <td class="tdItalic">Helena Figueiredo</td>
+        </tr>
+        <tr>
+            <td class="tdBold">Catarina</td>
+            <td class="tdItalic">Izabella Cioffi</td>
+        </tr>
+        <tr>
+            <td class="tdBold">Cristina<br>Capeta da Vilarinho</td>
+            <td class="tdItalic">Amanda Muzzi</td>
+        </tr>
+        <tr>
+            <td class="tdBold">Cléber</td>
+            <td class="tdItalic">Letícia Campielo</td>
+        </tr>
+        <tr>
+            <td class="tdBold">Loira do Bonfim</td>
+            <td class="tdItalic">Ana Paula Espaladori</td>
+        </tr>
+        <tr>
+            <td class="tdBold">Avantesma da Lagoinha<br>Amiga da avó de Sofia 1</td>
+            <td class="tdItalic">Letícia Bayão</td>
+        </tr>
+        <tr>
+            <td class="tdBold">Amiga da avó de Sofia 2</td>
+            <td class="tdItalic">Júlia Murta</td>
+        </tr>
+        <tr>
+            <td class="tdBold">Amigo taxista</td>
+            <td class="tdItalic">Esther Navarro</td>
+        </tr>
+        <tr>
+            <td class="tdBold">Governador Laércio Gurgel</td>
+            <td class="tdItalic">Henrique Andrade</td>
+        </tr>
+        <tr>
+            <td class="tdBold">Embaixador Português<br>Vencedor do concurso de dança</td>
+            <td class="tdItalic">Pedro Melo</td>
+        </tr>
+        <tr>
+            <td class="tdBold">Paulo</td>
+            <td class="tdItalic">Zaqueu Silva</td>
+        </tr>
+        <tr>
+            <td class="tdBold">Segurança da quadra da Vilarinho</td>
+            <td class="tdItalic">Clarissa Dias Solerno</td>
+        </tr>
+    </table>
+
+    <h3>Produção</h3>
+    <table>
+        <tr>
+            <td class="tdBold">Roteiro</td>
+            <td class="tdItalic">Estudantes do Clube de Linguística e Linguagens</td>
+        </tr>
+        <tr>
+            <td class="tdBold">Direção</td>
+            <td class="tdItalic">Ana Beatriz Silva Gomes<br>Clarissa Dias Solerno</td>
+        </tr>
+        <tr>
+            <td class="tdBold">Câmeras</td>
+            <td class="tdItalic">Ana Beatriz Silva Gomes<br>Ana Paula Espaladori<br>Clarissa Dias Solerno<br>Esther Navarro<br>Letícia Bayão<br>Letícia Campielo</td>
+        </tr>
+        <tr>
+            <td class="tdBold">Edição</td>
+            <td class="tdItalic">Izabella Cioffi</td>
+        </tr>
+    </table>
+
+
+    `, 
+    trabalhos: [
+      { titulo: 'Curtas da Alameda das Almas', 
+        descricao: 'Espaço reservado para os curtas produzidos pelos estudantes.', 
+        imagens: [], 
+        videos: [] 
+      }
+    ] 
+  },
+  
+  { id: 'humanidades', 
+    nome: 'Humanidades', 
+    espaco: 'Rua Encontro Marcado', 
+    tipo: 'Cidade e sociedade', 
+    cor: '#000', 
+    descricao: 'Um olhar audiovisual sobre as tensões entre a Belo Horizonte planejada e a Belo Horizonte vivida.', 
+    trabalhos: [
+      { titulo: 'A cidade planejada e a cidade vivida', 
+        descricao: 'Espaço para registros e produções audiovisuais.', 
+        imagens: [], 
+        videos: [] 
+      }
+    ] 
+  },
+  
+  { id: 'fisica', 
+    nome: 'Ciências — Física', 
+    espaco: 'Esquina da Física', 
+    tipo: 'Ambiente urbano', 
+    cor: '#26336b', 
+    descricao: `
+      <h2>O “calor” não é igual para todo mundo</h2>
+      <p>O projeto “O calor não é igual para todo mundo” propõe uma reflexão sobre as desigualdades socioambientais relacionadas à distribuição da temperatura na cidade de Belo Horizonte. A partir do estudo das ilhas de calor urbanas, buscamos compreender como a urbanização, a verticalização, a impermeabilização do solo e a distribuição desigual das áreas verdes influenciam as temperaturas em diferentes regiões da cidade.</p>
+      <p>O projeto relaciona conceitos da Física, como absorção e transferência de energia térmica, a questões sociais e ambientais, evidenciando que os impactos do aquecimento urbano não são sentidos igualmente por toda a população. Dessa forma, pretende-se estimular uma análise crítica sobre como o planejamento urbano e as desigualdades socioeconômicas interferem nas condições de conforto térmico e na qualidade de vida dos habitantes de Belo Horizonte.</p>
+    `, 
+    trabalhos: [
+      { titulo: 'Impactos ambientais',
+        descricao: 'Espaço para apresentar a investigação de Física.', 
+        imagens: [], 
+        videos: [] 
+      }
+    ] 
+  },
+  
+  { id: 'quimica', 
+    nome: 'Ciências — Química', 
+    espaco: 'Esquina da Química', 
+    tipo: 'Consumo e energia', 
+    cor: '#26336b', 
+    descricao: 'Pesquisa sobre hábitos de consumo e atividades cotidianas que envolvem diferentes formas de energia.', 
+    trabalhos: [
+      { titulo: 'Energia no cotidiano', 
+        descricao: 'Espaço para apresentar a investigação de Química.', 
+        imagens: [], 
+        videos: [] 
+      }
+    ] 
+  },
+  
+  { id: 'biologia', 
+    nome: 'Ciências — Biologia', 
+    espaco: 'Esquina da Biologia', 
+    tipo: 'Justiça ambiental', 
+    cor: '#26336b', 
+    resumo: 'Investigação das relações entre desigualdade social, racismo ambiental, ecossistemas e saúde pública em Belo Horizonte.', 
+    descricao: `
       <h2>As Fronteiras da Invisibilidade</h2>
       <h3>Meio Ambiente, Saúde e Sociedade</h3>
       <p class="destaque">Uma mesma cidade, diferentes realidades: o meio ambiente, a saúde e as desigualdades que nem sempre enxergamos.</p>
@@ -16,7 +166,42 @@ window.CIDADE_DATA = [
       <h3>Nosso objetivo</h3>
       <p>A Rua das Conexões busca estimular o pensamento crítico, a consciência socioambiental e o olhar para essas conexões invisíveis que existem na cidade.</p>
       <p>Construir cidades mais saudáveis também exige enfrentar as desigualdades sociais e garantir o direito coletivo a um ambiente equilibrado.</p>
-    `, trabalhos: [{ titulo: 'Racismo ambiental', descricao: 'Espaço para apresentar a investigação de Biologia.', imagens: [], videos: [] }] },
-    { id: 'matematica', nome: 'Matemática', espaco: 'Rua Abaixo', tipo: 'Águas da cidade', cor: '#7a1710', descricao: 'Estudo da canalização dos rios e córregos de Belo Horizonte e do escoamento das águas das chuvas.', trabalhos: [{ titulo: 'Os caminhos da água', descricao: 'Espaço para registros, cálculos e materiais da pesquisa.', imagens: [], videos: [] }] },
-    { id: 'programacao', nome: 'Programação', espaco: 'Navegação pela cidade', tipo: 'Experiência digital', cor: '#194422', descricao: 'Criação deste portal interativo e organização das projeções audiovisuais da instalação.', trabalhos: [{ titulo: 'O portal da cidade', descricao: 'Espaço para documentar o desenvolvimento do site e as projeções.', imagens: [], videos: [] }] }
+    `, 
+    trabalhos: [
+      { titulo: 'Racismo ambiental', 
+        descricao: 'Espaço para apresentar a investigação de Biologia.', 
+        imagens: [], 
+        videos: [] }
+    ] 
+  },
+  
+  { id: 'matematica', 
+    nome: 'Matemática', 
+    espaco: 'Rua Abaixo', 
+    tipo: 'Águas da cidade', 
+    cor: '#7a1710', 
+    descricao: 'Estudo da canalização dos rios e córregos de Belo Horizonte e do escoamento das águas das chuvas.', 
+    trabalhos: [
+      { titulo: 'Os caminhos da água', 
+        descricao: 'Espaço para registros, cálculos e materiais da pesquisa.', 
+        imagens: [], 
+        videos: [] 
+      }
+    ] 
+  },
+  
+  { id: 'programacao', 
+    nome: 'Programação', 
+    espaco: 'Navegação pela cidade', 
+    tipo: 'Experiência digital', 
+    cor: '#194422', 
+    descricao: 'Criação deste portal interativo e organização das projeções audiovisuais da instalação.', 
+    trabalhos: [
+      { titulo: 'O portal da cidade', 
+        descricao: 'Espaço para documentar o desenvolvimento do site e as projeções.', 
+        imagens: [], 
+        videos: [] 
+      }
+    ] 
+  }
 ];
