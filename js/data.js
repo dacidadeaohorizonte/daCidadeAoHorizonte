@@ -4,19 +4,18 @@ window.CIDADE_DATA = [
     espaco: 'Alameda das Almas',
     tipo: 'Narrativas e cinema', 
     cor: '#5c2874',
-    resumo:'', 
+    resumo:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', 
     descricao: `
     
     <h2>Pânico em BH</h2>
-    <p>Inspirados pelos mitos de fundação e desenvolvimento de Belo Horizonte, os estudantes do Clube de Linguística e Linguagens do Colégio Loyola roteirizaram, gravaram, produziram e editaram Pânico em BH, um curta que compila lendas conhecidas amplamente pelos moradores da cidade.</p>
-    <p>Misturando costumes do cotidiano e causos inventados, o curta reconta as histórias do Capeta da Vilarinho, Loira do Bonfim, Avantesma da Lagoinha e Maria do Arraial de forma cômica e reflexiva, promovendo debate acerca das identidades dos personagens e de localizações icônicas para a história de BH.</p>
+    <p>Inspirados pelos mitos de fundação e desenvolvimento de Belo Horizonte, os estudantes do Clube de Linguística e Linguagens do Colégio Loyola roteirizaram, gravaram, produziram e editaram Pânico em BH, um curta que compila lendas amplamente conhecidas pelos Belorizontinos.</p>
     <p>Confira o roteiro: <a href="files/PanicoEmBH.pdf">Clique Aqui!</a></p>
 
     <h3>Ficha Técnica</h3>
     <table>
       <tr>
-          <td>Título original</td>
-          <td>Pânico em BH</td>
+          <td class="tdBold">Título original</td>
+          <td class="tdItalic">Pânico em BH</td>
       </tr>
       <tr>
           <td>Duração</td>
@@ -24,7 +23,7 @@ window.CIDADE_DATA = [
       </tr>
       <tr>
           <td>Direção</td>
-          <td>Ana Beatriz Silva Gomes e Clarissa solerno</td>
+          <td>Ana Beatriz Silva Gomes e Clarissa Solerno</td>
       </tr>
       <tr>
           <td>Edição</td>
@@ -61,7 +60,7 @@ window.CIDADE_DATA = [
       <tr>
           <td>Sinopse</td>
           <td>
-              Em uma inusitada festa do pijama, Sofia, Julia, Catarina, Cristina (e Cleber) recontam as famosas lendas do Capeta da Vilarinho, Loira do Bonfim, Avantesma da Lagoinha e Maria do Arraial de forma cômica e reflexiva, promovendo debate acerca das identidades dos personagens e de localizações icônicas de BH.
+              Em uma inusitada festa do pijama, Sofia, Julia, Catarina, Cristina (e Cleber) recontam as famosas lendas como Capeta da Vilarinho, Loira do Bonfim, Avantesma da Lagoinha e Maria do Arraial de forma cômica e reflexiva, promovendo debate acerca das identidades dos personagens e de localizações icônicas de BH.
           </td>
       </tr>
     </table>
@@ -79,54 +78,21 @@ window.CIDADE_DATA = [
     ] 
   },
   
-  { id: 'humanidades', 
-    nome: 'Humanidades', 
-    espaco: 'Rua Encontro Marcado', 
-    tipo: 'Cidade e sociedade', 
-    cor: '#000', 
-    descricao: `
-      <h2>Rua Encontro Marcado</h2> 
-      <p>Descrição do projeto: A ideia é reproduzir, através de uma instalação composta pela exposição de quatro imagens e quatro pontos de recursos sonoros, a dicotomia entre a Belo Horizonte planejada e a Belo Horizonte vivida. Para ilustrar os dois pontos dos quais partem nosso projeto, elegemos a Belo Horizonte da década de 1940, em especial as comemorações da efeméride do cinquentenário da capital em 1947, e a Belo Horizonte atual.</p>
-      <p>A exposição do Clube de Humanidades realiza o encontro entre passado e presente de Belo Horizonte através de fotomontagens feitas a partir de distintos instrumentos, que servirão como suporte material para a contraposição das dicotomias latentes da nossa cidade. A ideia é que os estudantes pesquisem em acervos e meios digitais, imagens que ilustrem o passado-promessa e o presente-realidade da capital mineira. Através de diferentes técnicas como de colagem física (impressão de fotografias em papel fotográfico e colagem de recortes de outras fotografias) e sobreposição com papel vegetal (impressão de uma das imagens em papel fotográfico e outra em papel manteiga), os estudantes irão produzir e expor visualmente as contradições que marcam a memória e a identidade da cidade de Belo Horizonte, em uma tentativa que combina tanto crítica histórica quanto reconstrução simbólica das paisagens e personagens esquecidos da memória belo horizontina.</p>
-    `, 
-    trabalhos: [
-      { titulo: 'A cidade planejada e a cidade vivida', 
-        descricao: 'Espaço para registros e produções audiovisuais.', 
-        imagens: [], 
-        videos: [] 
-      }
-    ] 
-  },
-  
-  { id: 'fisica', 
-    nome: 'Ciências — Física', 
-    espaco: 'Esquina da Física', 
-    tipo: 'Ambiente urbano', 
-    cor: '#26336b', 
-    resumo: 'O projeto “O calor não é igual para todo mundo” propõe uma reflexão sobre as desigualdades socioambientais relacionadas à distribuição da temperatura na cidade de Belo Horizonte.',
-    descricao: `
-      <h2>O “calor” não é igual para todo mundo</h2>
-      <p>O projeto “O calor não é igual para todo mundo” propõe uma reflexão sobre as desigualdades socioambientais relacionadas à distribuição da temperatura na cidade de Belo Horizonte. A partir do estudo das ilhas de calor urbanas, buscamos compreender como a urbanização, a verticalização, a impermeabilização do solo e a distribuição desigual das áreas verdes influenciam as temperaturas em diferentes regiões da cidade.</p>
-      <p>O projeto relaciona conceitos da Física, como absorção e transferência de energia térmica, a questões sociais e ambientais, evidenciando que os impactos do aquecimento urbano não são sentidos igualmente por toda a população. Dessa forma, pretende-se estimular uma análise crítica sobre como o planejamento urbano e as desigualdades socioeconômicas interferem nas condições de conforto térmico e na qualidade de vida dos habitantes de Belo Horizonte.</p>
-    `, 
-    trabalhos: [
-      { titulo: 'Impactos ambientais',
-        descricao: 'Espaço para apresentar a investigação de Física.', 
-        imagens: [], 
-        videos: [] 
-      }
-    ] 
-  },
   
   { id: 'quimica', 
     nome: 'Ciências — Química', 
-    espaco: 'Esquina da Química', 
+    espaco: 'Rua dos Circuitos', 
     tipo: 'Consumo e energia', 
     cor: '#26336b', 
-    resumo:'',
+    resumo:'Carbon Free não começa no descarte. Começa nas escolhas de consumo.',
     descricao: `
+      <h2>BH REBOOT: uma cidade conectada, mas a que custo?</h2>
 
-    
+      <p>Vivemos em uma sociedade cada vez mais dependente da tecnologia, na qual celulares, computadores e outros dispositivos eletrônicos são constantemente substituídos, muitas vezes antes mesmo do fim de sua vida útil. Entretanto, por trás da inovação e da conectividade, existe um custo ambiental frequentemente invisibilizado.</p>
+      <p>A extração de matérias-primas, a fabricação, o transporte e o descarte inadequado desses equipamentos contribuem para os impactos ambientais e para as emissões de gases de efeito estufa, ampliando nossa pegada de carbono.</p>
+      <p>Inspirada na cidade de Belo Horizonte, nossa maquete foi construída a partir de componentes de equipamentos eletrônicos descartados. Mais do que representar uma cidade, ela propõe uma reflexão sobre os padrões de consumo da sociedade atual e questiona: até que ponto o avanço tecnológico representa progresso quando não consideramos seus custos ambientais?</p>
+      <p>Em diálogo com o conceito Carbon Free, o projeto convida à reflexão sobre a necessidade de repensar nossos hábitos de consumo, prolongar a vida útil dos equipamentos, priorizar a reutilização e garantir a destinação ambientalmente adequada dos resíduos eletrônicos.</p>
+      <p>Afinal, não existe futuro sustentável sem responsabilidade sobre aquilo que consumimos e descartamos.</p>
     `, 
     trabalhos: [
       { titulo: 'Energia no cotidiano', 
@@ -136,10 +102,30 @@ window.CIDADE_DATA = [
       }
     ] 
   },
+
+
+  { id: 'humanidades', 
+    nome: 'Humanidades', 
+    espaco: 'Rua Encontro Marcado', 
+    tipo: 'Cidade e sociedade', 
+    cor: '#000', 
+    resumo:'As cidades são cristais de variadas luzes, entre elas a da memória, que, com sua temporalidade sempre em movimento, reencontra lugares de ontem com sentimentos do presente. Lucila de Almeida Neves',
+    descricao: `
+      <h2>Encontro Marcado</h2>
+      <p>A ideia é reproduzir, através de uma instalação, a dicotomia entre a Belo Horizonte planejada e a Belo Horizonte vivida. Projetada como a capital do futuro, símbolo da modernidade em um estado marcado pelo tradicionalismo e conservadorismo da era dos coronéis e barões do café, BH vestiu-se do signo de “capital do futuro”. Em contraste, a BH vivida pelos nossos estudantes hoje carrega mais símbolos do atraso do que nunca, problemas na mobilidade urbana, degradação da paisagem natural, história de exclusão sociopolítica e uma profunda desigualdade de acessos à cidade, afastam BH do sonho de metrópole e a aproximam de uma passado para o qual ela foi erigida para cobrir.</p>
+      <p>A exposição do Clube de Humanidades representa o  encontro marcado entre futuro/passado, ontem/hoje, modernidade prometida/modernidade real que está apresentado em fotomontagens feitas a partir de distintos instrumentos, e servem como suporte material para a contraposição das dicotomias latentes da nossa cidade.</p>`, 
+    trabalhos: [
+      { titulo: 'A cidade planejada e a cidade vivida', 
+        descricao: 'Espaço para registros e produções audiovisuais.', 
+        imagens: [], 
+        videos: [] 
+      }
+    ] 
+  },  
   
   { id: 'biologia', 
     nome: 'Ciências — Biologia', 
-    espaco: 'Esquina da Biologia', 
+    espaco: 'Rua das Conexões', 
     tipo: 'Justiça ambiental', 
     cor: '#26336b', 
     resumo: 'Investigação das relações entre desigualdade social, racismo ambiental, ecossistemas e saúde pública em Belo Horizonte.', 
@@ -162,6 +148,26 @@ window.CIDADE_DATA = [
         descricao: 'Espaço para apresentar a investigação de Biologia.', 
         imagens: [], 
         videos: [] }
+    ] 
+  },
+
+  { id: 'fisica', 
+    nome: 'Ciências — Física', 
+    espaco: 'Travessa do Avesso', 
+    tipo: 'Ambiente urbano', 
+    cor: '#26336b', 
+    resumo: 'O projeto “O calor não é igual para todo mundo” propõe uma reflexão sobre as desigualdades socioambientais relacionadas à distribuição da temperatura na cidade de Belo Horizonte.',
+    descricao: `
+      <h2>O “calor” não é igual para todo mundo</h2>
+      <p>O projeto “O calor não é igual para todo mundo” propõe uma reflexão sobre as desigualdades socioambientais relacionadas à distribuição da temperatura na cidade de Belo Horizonte. A partir do estudo das ilhas de calor urbanas, buscamos compreender como a urbanização, a verticalização, a impermeabilização do solo e a distribuição desigual das áreas verdes influenciam as temperaturas em diferentes regiões da cidade.</p>
+      <p>O projeto relaciona conceitos da Física, como absorção e transferência de energia térmica, a questões sociais e ambientais, evidenciando que os impactos do aquecimento urbano não são sentidos igualmente por toda a população. Dessa forma, pretende-se estimular uma análise crítica sobre como o planejamento urbano e as desigualdades socioeconômicas interferem nas condições de conforto térmico e na qualidade de vida dos habitantes de Belo Horizonte.</p>
+    `, 
+    trabalhos: [
+      { titulo: 'Impactos ambientais',
+        descricao: 'Espaço para apresentar a investigação de Física.', 
+        imagens: [], 
+        videos: [] 
+      }
     ] 
   },
   
@@ -188,13 +194,19 @@ window.CIDADE_DATA = [
   
   { id: 'programacao', 
     nome: 'Programação', 
-    espaco: 'Navegação pela cidade', 
+    espaco: 'Centro de Atendimento ao Turista', 
     tipo: 'Experiência digital', 
     cor: '#194422', 
     resumo:'Criação deste portal interativo e organização das projeções audiovisuais da instalação.', 
-    descricao: 'teste', 
+    descricao: `
+      <h2>Da Cidade Ao Virtual</h2>
+      <p>O desenvolvimento do site Da Cidade ao Horizonte foi realizado pelo Clube de Programação, com o objetivo de criar uma plataforma digital capaz de reunir, organizar e apresentar os projetos desenvolvidos pelos diferentes clubes estudantis.</p>
+      <p>A plataforma conta com navegação interativa, apresentação dos clubes, páginas individuais para exposição dos trabalhos e recursos visuais que tornam a experiência mais intuitiva e envolvente. Utilizando as linguagens HTML, CSS e JavaScript, os estudantes participaram da construção de um portal interativo, aplicando conhecimentos de estruturação de páginas, estilização visual, responsividade e programação de funcionalidades.</p>
+      <p>Durante o desenvolvimento, foram trabalhados conceitos de design de interfaces, experiência do usuário (UX), organização de dados, programação web e responsividade para dispositivos móveis, buscando garantir uma navegação acessível em diferentes tamanhos de tela. Além dos aspectos técnicos, o projeto proporcionou aos estudantes a oportunidade de vivenciar etapas do desenvolvimento de software, como planejamento, implementação, testes, identificação de problemas e aprimoramento contínuo.</p>
+      <p>O resultado é uma plataforma que vai além da apresentação de trabalhos escolares, demonstrando como a programação pode ser utilizada para conectar diferentes áreas do conhecimento, estimular a criatividade e transformar ideias em soluções digitais.</p>
+    `, 
     trabalhos: [
-      { titulo: 'O portal da cidade', 
+      { titulo: 'Da Cidade ao Virtual', 
         descricao: 'Espaço para documentar o desenvolvimento do site e as projeções.', 
         imagens: [], 
         videos: [] 
