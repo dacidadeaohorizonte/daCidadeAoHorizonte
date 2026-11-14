@@ -4,7 +4,7 @@ window.CIDADE_DATA = [
     espaco: 'Alameda das Almas',
     tipo: 'Narrativas e cinema', 
     cor: '#5c2874',
-    resumo:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', 
+    resumo:'Terror com Humor', 
     descricao: `
     
     <h2>Pânico em BH</h2>
