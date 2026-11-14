@@ -767,3 +767,22 @@ button:focus-visible {
         background-image: linear-gradient(90deg, rgba(12, 32, 40, .78), rgba(12, 32, 40, .48)), url('../img/home.jpg');
     }
 }
+
+/* Identidade institucional no cabeçalho */
+.header-identity {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    min-width: 0;
+    flex-shrink: 0;
+}
+.header-loyola {
+    display: block;
+    width: auto;
+    height: 48px;
+    max-width: 150px;
+    object-fit: contain;
+}
+@media (max-width: 900px) {
+    .header-loyola { display: none; }
+}
