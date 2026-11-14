@@ -767,3 +767,59 @@ button:focus-visible {
         background-image: linear-gradient(90deg, rgba(12, 32, 40, .78), rgba(12, 32, 40, .48)), url('../img/home.jpg');
     }
 }
+
+/* Identidade institucional no cabeçalho */
+.header-identity {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    min-width: 0;
+    flex-shrink: 0;
+}
+.header-loyola {
+    display: block;
+    width: auto;
+    height: 48px;
+    max-width: 150px;
+    object-fit: contain;
+}
+@media (max-width: 900px) {
+    .header-loyola { display: none; }
+}
+
+
+/* Ficha técnica: colunas estáveis e tipografia consistente */
+.club-description .descricao .ficha-tecnica {
+  width: 100%;
+  max-width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  text-align: left;
+}
+.club-description .descricao .ficha-tecnica th,
+.club-description .descricao .ficha-tecnica td {
+  padding: 8px 14px 8px 0;
+  vertical-align: top;
+  text-align: left;
+  line-height: 1.55;
+  font-size: 1rem;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
+.club-description .descricao .ficha-tecnica th {
+  width: 30%;
+  font-weight: 700;
+}
+.club-description .descricao .ficha-tecnica td {
+  width: 70%;
+  font-weight: 400;
+  overflow-wrap: break-word;
+}
+.club-description .descricao .ficha-tecnica em { font-style: italic; font-weight: 400; }
+@media (max-width: 600px) {
+  .club-description .descricao .ficha-tecnica th { width: 35%; }
+  .club-description .descricao .ficha-tecnica td { width: 65%; }
+  .club-description .descricao .ficha-tecnica th,
+  .club-description .descricao .ficha-tecnica td { padding-right: 10px; font-size: .94rem; }
+}
