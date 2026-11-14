@@ -15,53 +15,53 @@ window.CIDADE_DATA = [
     <table class="ficha-tecnica">
       <tr>
           <th scope="row">Título original</th>
-          <td><em>Pânico em BH</em></td>
+          <td><em><em>Pânico em BH</em></td>
       </tr>
       <tr>
           <th scope="row">Duração</th>
-          <td>11m 19s</td>
+          <td><em>11m 19s</td>
       </tr>
       <tr>
           <th scope="row">Direção</th>
-          <td>Ana Beatriz Silva Gomes e Clarissa Solerno</td>
+          <td><em>Ana Beatriz Silva Gomes e Clarissa Solerno</em></td>
       </tr>
       <tr>
           <th scope="row">Edição</th>
-          <td>Izabella Cioffi</td>
+          <td><em>Izabella Cioffi</em></td>
       </tr>
       <tr>
           <th scope="row">Câmeras</th>
-          <td>
+          <td><em>
               Ana Beatriz Silva Gomes, Ana Paula Espaladori, Clarissa Dias Solerno, Esther Navarro, Letícia Bayão, Letícia Campielo
-          </td>
+          </em></td>
       </tr>
       <tr>
           <th scope="row">Elenco</th>
-          <td>
+          <td><em>
               Helena Sette, Helena Figueiredo, Izabella Cioffi, Amanda Muzzi, Letícia Campielo, Ana Paula Espaladori, Letícia Bayão, Pedro Melo, Esther Navarro, Henrique Andrade, Júlia Murta, Zaqueu Silva, Clarissa Dias Solerno
-          </td>
+          </em></td>
       </tr>
       <tr>
           <th scope="row">Gênero</th>
-          <td>Terror, Comédia</td>
+          <td><em>Terror, Comédia</em></td>
       </tr>
       <tr>
           <th scope="row">Ano de lançamento</th>
-          <td>2026</td>
+          <td><em>2026</em></td>
       </tr>
       <tr>
           <th scope="row">País</th>
-          <td>Brasil</td>
+          <td><em>Brasil</em></td>
       </tr>
       <tr>
           <th scope="row">Classificação</th>
-          <td>Livre</td>
+          <td><em>Livre</em></td>
       </tr>
       <tr>
           <th scope="row">Sinopse</th>
-          <td>
+          <td><em>
               Em uma inusitada festa do pijama, Sofia, Julia, Catarina, Cristina (e Cleber) recontam as famosas lendas como Capeta da Vilarinho, Loira do Bonfim, Avantesma da Lagoinha e Maria do Arraial de forma cômica e reflexiva, promovendo debate acerca das identidades dos personagens e de localizações icônicas de BH.
-          </td>
+          </em></td>
       </tr>
     </table>
     `, 
