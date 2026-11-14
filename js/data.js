@@ -12,53 +12,53 @@ window.CIDADE_DATA = [
     <p>Confira o roteiro: <a href="files/PanicoEmBH.pdf">Clique Aqui!</a></p>
 
     <h3>Ficha Técnica</h3>
-    <table>
+    <table class="ficha-tecnica">
       <tr>
-          <td class="tdBold">Título original</td>
-          <td class="tdItalic">Pânico em BH</td>
+          <th scope="row">Título original</th>
+          <td><em>Pânico em BH</em></td>
       </tr>
       <tr>
-          <td>Duração</td>
+          <th scope="row">Duração</th>
           <td>11m 19s</td>
       </tr>
       <tr>
-          <td>Direção</td>
+          <th scope="row">Direção</th>
           <td>Ana Beatriz Silva Gomes e Clarissa Solerno</td>
       </tr>
       <tr>
-          <td>Edição</td>
+          <th scope="row">Edição</th>
           <td>Izabella Cioffi</td>
       </tr>
       <tr>
-          <td>Câmeras</td>
+          <th scope="row">Câmeras</th>
           <td>
               Ana Beatriz Silva Gomes, Ana Paula Espaladori, Clarissa Dias Solerno, Esther Navarro, Letícia Bayão, Letícia Campielo
           </td>
       </tr>
       <tr>
-          <td>Elenco</td>
+          <th scope="row">Elenco</th>
           <td>
               Helena Sette, Helena Figueiredo, Izabella Cioffi, Amanda Muzzi, Letícia Campielo, Ana Paula Espaladori, Letícia Bayão, Pedro Melo, Esther Navarro, Henrique Andrade, Júlia Murta, Zaqueu Silva, Clarissa Dias Solerno
           </td>
       </tr>
       <tr>
-          <td>Gênero</td>
+          <th scope="row">Gênero</th>
           <td>Terror, Comédia</td>
       </tr>
       <tr>
-          <td>Ano de lançamento</td>
+          <th scope="row">Ano de lançamento</th>
           <td>2026</td>
       </tr>
       <tr>
-          <td>País</td>
+          <th scope="row">País</th>
           <td>Brasil</td>
       </tr>
       <tr>
-          <td>Classificação</td>
+          <th scope="row">Classificação</th>
           <td>Livre</td>
       </tr>
       <tr>
-          <td>Sinopse</td>
+          <th scope="row">Sinopse</th>
           <td>
               Em uma inusitada festa do pijama, Sofia, Julia, Catarina, Cristina (e Cleber) recontam as famosas lendas como Capeta da Vilarinho, Loira do Bonfim, Avantesma da Lagoinha e Maria do Arraial de forma cômica e reflexiva, promovendo debate acerca das identidades dos personagens e de localizações icônicas de BH.
           </td>
