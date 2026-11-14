@@ -64,10 +64,6 @@ window.CIDADE_DATA = [
           </td>
       </tr>
     </table>
-
-   
-
-
     `, 
     trabalhos: [
       { titulo: 'Curtas da Alameda das Almas', 
@@ -109,11 +105,11 @@ window.CIDADE_DATA = [
     espaco: 'Rua Encontro Marcado', 
     tipo: 'Cidade e sociedade', 
     cor: '#000', 
-    resumo:'As cidades são cristais de variadas luzes, entre elas a da memória, que, com sua temporalidade sempre em movimento, reencontra lugares de ontem com sentimentos do presente. Lucila de Almeida Neves',
+    resumo:'"As cidades são cristais de variadas luzes, entre elas a da memória, que, com sua temporalidade sempre em movimento, reencontra lugares de ontem com sentimentos do presente." Lucila de Almeida Neves',
     descricao: `
       <h2>Encontro Marcado</h2>
-      <p>A ideia é reproduzir, através de uma instalação, a dicotomia entre a Belo Horizonte planejada e a Belo Horizonte vivida. Projetada como a capital do futuro, símbolo da modernidade em um estado marcado pelo tradicionalismo e conservadorismo da era dos coronéis e barões do café, BH vestiu-se do signo de “capital do futuro”. Em contraste, a BH vivida pelos nossos estudantes hoje carrega mais símbolos do atraso do que nunca, problemas na mobilidade urbana, degradação da paisagem natural, história de exclusão sociopolítica e uma profunda desigualdade de acessos à cidade, afastam BH do sonho de metrópole e a aproximam de uma passado para o qual ela foi erigida para cobrir.</p>
-      <p>A exposição do Clube de Humanidades representa o  encontro marcado entre futuro/passado, ontem/hoje, modernidade prometida/modernidade real que está apresentado em fotomontagens feitas a partir de distintos instrumentos, e servem como suporte material para a contraposição das dicotomias latentes da nossa cidade.</p>`, 
+      <p>A ideia é reproduzir, através de uma instalação, a dicotomia entre a Belo Horizonte planejada e a Belo Horizonte vivida. Projetada como a capital do futuro, símbolo da modernidade em um estado marcado pelo tradicionalismo e conservadorismo da era dos coronéis e barões do café, BH vestiu-se do signo de “capital do futuro”. Em contraste, a BH vivida pelos nossos estudantes hoje carrega mais símbolos do atraso do que nunca. Problemas na mobilidade urbana, degradação da paisagem natural, história de exclusão sociopolítica e uma profunda desigualdade de acessos à cidade afastam BH do sonho de metrópole e a aproximam de um passado para o qual ela foi erigida.</p>
+      <p>A exposição do Clube de Humanidades representa o encontro marcado entre futuro/passado, ontem/hoje, modernidade prometida/modernidade real que está apresentado em fotomontagens feitas a partir de distintos instrumentos, e servem como suporte material para a contraposição das dicotomias latentes da nossa cidade.</p>`, 
     trabalhos: [
       { titulo: 'A cidade planejada e a cidade vivida', 
         descricao: 'Espaço para registros e produções audiovisuais.', 
@@ -128,11 +124,9 @@ window.CIDADE_DATA = [
     espaco: 'Rua das Conexões', 
     tipo: 'Justiça ambiental', 
     cor: '#26336b', 
-    resumo: 'Investigação das relações entre desigualdade social, racismo ambiental, ecossistemas e saúde pública em Belo Horizonte.', 
+    resumo: 'Uma mesma cidade, diferentes realidades: o meio ambiente, a saúde e as desigualdades que nem sempre enxergamos.', 
     descricao: `
       <h2>As Fronteiras da Invisibilidade</h2>
-      <h3>Meio Ambiente, Saúde e Sociedade</h3>
-      <p class="destaque">Uma mesma cidade, diferentes realidades: o meio ambiente, a saúde e as desigualdades que nem sempre enxergamos.</p>
       <h3>Sobre o projeto</h3>
       <p>O projeto tem como objetivo investigar as relações entre desigualdade social, racismo ambiental, degradação dos ecossistemas e saúde pública na cidade de Belo Horizonte.</p>
       <h3>Problemas ambientais urbanos</h3>
@@ -179,8 +173,7 @@ window.CIDADE_DATA = [
     resumo:'O Clube de Matemática vai abordar o tema das ruas num sentido mais objetivo e fiel à sua etimologia.', 
     descricao: `
       <h2>Rua Abaixo</h2>
-      <p>O Clube de Matemática vai abordar o tema das ruas num sentido mais objetivo e fiel à sua etimologia.</p>
-      <p>A palavra rua vem do latim ruga, que significava originalmente "sulco" ou "caminho". Na Roma Antiga designava o canal para escoamento de águas da chuva, mas com o tempo, seu sentido mudou para via de circulação.</p>
+      <p>A palavra "rua" vem do latim "ruga", que significava originalmente "sulco" ou "caminho". Na Roma Antiga, designava o canal para escoamento de águas da chuva, mas, com o tempo, seu sentido mudou para via de circulação.</p>
       <p>Inspirado nisso, o Clube vai apresentar e explorar o que ainda acontece debaixo de muitas ruas e avenidas: o escoamento subterrâneo de rios, córregos e águas pluviais. Afinal, existem verdadeiros "rios invisíveis" correndo sob Belo Horizonte e várias outras cidades do mundo.</p>
     `, 
     trabalhos: [
